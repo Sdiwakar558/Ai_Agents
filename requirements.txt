@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain_core
+langchain_community
+pandas
+numpy
+scikit-learn
+seaborn
+scipy
+langchain_anthropic
+langchain_groq
