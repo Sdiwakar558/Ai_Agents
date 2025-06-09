@@ -33,3 +33,4 @@ class DataIngester:
                 logging.info("No file exist in folder, Please provide correct folder or file")
         except Exception as e:
             logging.info(f"error occured while loading file {e}")
+if __name__ =="__main __"

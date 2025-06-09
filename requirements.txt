@@ -9,3 +9,6 @@ seaborn
 scipy
 langchain_anthropic
 langchain_groq
+faker
+mysql
+mysql-connector
