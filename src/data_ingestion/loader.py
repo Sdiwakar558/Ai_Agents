@@ -35,4 +35,5 @@ class DataIngester:
             logging.info(f"error occured while loading file {e}")
             
 
-if __name__ =="__main __"
+if __name__ =="__main __":
+    pass
