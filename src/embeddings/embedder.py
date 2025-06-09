@@ -6,5 +6,3 @@ class Embedding_model:
     def create_embedding(self,data):
         embedding_model = HuggingFaceEmbeddings(model_name = self.embedding_model)
         return embedding_model
-
-

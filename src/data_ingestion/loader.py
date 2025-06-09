@@ -1,10 +1,10 @@
 import logging
 import pandas as pd
 import os
-logging.basicConfig(level=logging.INFO,format='%(asctime)s:%(message)s')
 from pathlib import path
-logging.info("starting data ingetion process")
 class DataIngester:
+    logging.basicConfig(level=logging.INFO,format='%(asctime)s:%(message)s')
+    logging.info("starting data ingetion process")
     def __init__(self,data_path):
         if os.path.exists(self.data_path):
             self.data_path = path(data_path)
@@ -33,3 +33,4 @@ class DataIngester:
                 logging.info("No file exist in folder, Please provide correct folder or file")
         except Exception as e:
             logging.info(f"error occured while loading file {e}")
+            

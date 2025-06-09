@@ -9,3 +9,6 @@ seaborn
 scipy
 langchain_anthropic
 langchain_groq
+langchain_huggingface
+unstructured
+libmagic
